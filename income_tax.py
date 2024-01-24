@@ -15,13 +15,19 @@ def calculate_income_tax (income):
 
 # check the conditions
   # income is less than 10000
-
+  if income <= 10000:
+    tax_payable = 0
 
   # income is less than 20000
-
+  elif income <= 20000:
+    next_taxable_income = income - 10000
+    tax_payable = next_taxable_income * 10 / 100
 
    # applying the rules to the income
-
+  else:
+    tax_payable = 0
+    tax_payable = 10000 * 10 / 100
+    tax_payable += (income - 20000) * 20 / 100
 
 # print the result
 
