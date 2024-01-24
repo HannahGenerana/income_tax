@@ -30,5 +30,9 @@ def calculate_income_tax (income):
     tax_payable += (income - 20000) * 20 / 100
 
 # print the result
+  print (f"The total tax to pay is ${tax_payable}")
 
 # print the result of the example
+calculate_income_tax (9000)
+calculate_income_tax (18000)
+calculate_income_tax (70000)
