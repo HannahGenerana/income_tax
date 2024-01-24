@@ -7,15 +7,21 @@
 # pseudocode
 
 # create a function to consider each rule
+def calculate_income_tax (income):
 
 # print the given income
+  tax_payable = 0
+  print (f"The given income is ${income}")
 
 # check the conditions
-   # income is less than 10000
+  # income is less than 10000
 
-   # income is less than 20000
+
+  # income is less than 20000
+
 
    # applying the rules to the income
+
 
 # print the result
 
